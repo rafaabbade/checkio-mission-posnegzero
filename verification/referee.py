@@ -38,7 +38,7 @@ api.add_listener(
     CheckiOReferee(
         tests=TESTS,
         function_name={
-            "python": "soma",
+            "python": "positivo_negativo_zero",
             "js": "countConsecutiveSummers"
         },
         cover_code={
