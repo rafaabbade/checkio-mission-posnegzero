@@ -1,16 +1,16 @@
 <!-- Describe task in general -->
 
 <p>
-    Crie uma função que receba dois números inteiros como parâmetros e retorne a soma desses números.
+    Crie uma função que receba um número e retorne se ele é positivo, negativo ou zero.
 </p>
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada: </strong> Dois números inteiros a e b.
+    <strong>Entrada: </strong> Um número.
 </p>
 
 <p>
-    <strong>Saída: </strong> Um número inteiro, que é a soma de a e b. 
+    <strong>Saída: </strong> Uma string indicando se o número é positivo, negativo ou zero. Use o comando print().
 </p>
 
 
@@ -25,9 +25,11 @@
 countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
-<pre class="brush: python">soma(2,3) == 5
-soma(-1,5) == 4
-soma(0,0) == 0
+<pre class="brush: python">
+positivo_negativo_zero(2) == 'positivo'
+positivo_negativo_zero(-7) == 'negativo'
+positivo_negativo_zero(0) == 'zero
+
 </pre>
 {% endif %}
 </div>
