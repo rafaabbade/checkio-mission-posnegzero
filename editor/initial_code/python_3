@@ -1,10 +1,10 @@
-def positivo_negativo_zero(a,b):
+def positivo_negativo_zero(num):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(positivo_negativo_zero(3,2))
+print(positivo_negativo_zero(num))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
