@@ -11,22 +11,16 @@ Each test is a dict with
 TESTS = {
     "Basics": [
         {
-            "input": [2,3],
-            "answer": 5
+            "input": [2],
+            "answer": 'positivo'
         },
         {
-            "input": [-1,5],
-            "answer": 4
+            "input": [-7],
+            "answer": 'negativo'
         },
         {
-            "input": [0,0],
-            "answer": 0
+            "input": [0],
+            "answer": 'zero'
         }
     ],
-    "Extra": [
-        {
-            "input": [-1,-1],
-            "answer": -2
-        },
-    ]
 }
