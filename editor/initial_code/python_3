@@ -4,7 +4,7 @@ def positivo_negativo_zero(num):
 
 
 print("Example:")
-print(positivo_negativo_zero(num))
+print(positivo_negativo_zero(5))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
